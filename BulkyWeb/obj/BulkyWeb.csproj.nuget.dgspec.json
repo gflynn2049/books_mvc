@@ -4,14 +4,90 @@
     "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj": {}
   },
   "projects": {
-    "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj": {
+    "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
-        "projectName": "BulkyWeb",
-        "projectPath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "projectUniqueName": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj",
+        "projectName": "Bulky.DataAcess",
+        "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj",
         "packagesPath": "/Users/gflynn2049/.nuget/packages/",
-        "outputPath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/obj/",
+        "outputPath": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gflynn2049/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+                "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj"
+              },
+              "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+                "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj",
+        "projectName": "Bulky.Models",
+        "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj",
+        "packagesPath": "/Users/gflynn2049/.nuget/packages/",
+        "outputPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gflynn2049/.nuget/NuGet/NuGet.Config"
@@ -37,6 +113,122 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
+        "projectName": "Bulky.Utility",
+        "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj",
+        "packagesPath": "/Users/gflynn2049/.nuget/packages/",
+        "outputPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gflynn2049/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "projectName": "BulkyWeb",
+        "projectPath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
+        "packagesPath": "/Users/gflynn2049/.nuget/packages/",
+        "outputPath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gflynn2049/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj": {
+                "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj"
+              },
+              "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
+                "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj"
+              },
+              "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj": {
+                "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Utility/Bulky.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -50,13 +242,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.12, )"
+              "version": "[7.0.13, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

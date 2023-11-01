@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ieGt7nhPzRl4jS74Vg7HkTR6p3Yw8gqxmyTeghyAxI/IdgZENnyCVxEU0/8l06LxunH+gvvyBhNSpWshP1DRQQ==",
+  "dgSpecHash": "AHPlDHSnh48jZtPAsHd+Cxq8JHNsMC9mY/uG2ywm7n5g7fR7IoN1k7KF0fuQP2H79cLJ3VGa+cGp++nxrkxtmw==",
   "success": true,
   "projectFilePath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -81,8 +81,8 @@
     "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.13/microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.design/7.0.13/microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.13/microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
-    "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.12/microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
-    "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.12/microsoft.entityframeworkcore.tools.7.0.12.nupkg.sha512",
+    "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.13/microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
+    "/Users/gflynn2049/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.13/microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
