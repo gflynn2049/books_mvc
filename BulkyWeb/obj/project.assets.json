@@ -3889,7 +3889,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Bulky.DataAcess/1.0.0": {
+      "Bulky.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3899,10 +3899,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11"
         },
         "compile": {
-          "bin/placeholder/Bulky.DataAcess.dll": {}
+          "bin/placeholder/Bulky.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Bulky.DataAcess.dll": {}
+          "bin/placeholder/Bulky.DataAccess.dll": {}
         }
       },
       "Bulky.Models/1.0.0": {
@@ -11313,10 +11313,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Bulky.DataAcess/1.0.0": {
+    "Bulky.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../Bulky.DataAcess/Bulky.DataAcess.csproj",
-      "msbuildProject": "../Bulky.DataAcess/Bulky.DataAcess.csproj"
+      "path": "../Bulky.DataAccess/Bulky.DataAccess.csproj",
+      "msbuildProject": "../Bulky.DataAccess/Bulky.DataAccess.csproj"
     },
     "Bulky.Models/1.0.0": {
       "type": "project",
@@ -11331,7 +11331,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Bulky.DataAcess >= 1.0.0",
+      "Bulky.DataAccess >= 1.0.0",
       "Bulky.Models >= 1.0.0",
       "Bulky.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
@@ -11367,8 +11367,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj": {
-              "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAcess/Bulky.DataAcess.csproj"
+            "/Users/gflynn2049/Projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj": {
+              "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.DataAccess/Bulky.DataAccess.csproj"
             },
             "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj": {
               "projectPath": "/Users/gflynn2049/Projects/Bulky/Bulky.Models/Bulky.Models.csproj"

@@ -1,6 +1,6 @@
-﻿using Bulky.DataAcess.Data;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
+﻿using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
+using Bulky.DataAccess.Data;
 var builder = WebApplication.CreateBuilder(args);
 // UseNpgsql()
 
