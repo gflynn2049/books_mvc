@@ -1,12 +1,11 @@
-using System.Linq.Expressions;
 using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 
-namespace Bulky.DataAccess.Repository.ICategoryRepository
+namespace Bulky.DataAccess.Repository
 {
     public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category obj);
-        void Save();
+
     }
 }

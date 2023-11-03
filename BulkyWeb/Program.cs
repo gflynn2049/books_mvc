@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Bulky.DataAccess.Data;
-using Bulky.DataAccess.Repository.ICategoryRepository;
-using Bulky.DataAccess.CategoryRepository;
+using Bulky.DataAccess.Repository;
 var builder = WebApplication.CreateBuilder(args);
 // UseNpgsql()
 
@@ -11,7 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
 
