@@ -1,7 +1,6 @@
-using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 
-namespace Bulky.DataAccess.Repository
+namespace Bulky.DataAccess.Repository.IRepository
 {
     public interface ICategoryRepository : IRepository<Category>
     {
