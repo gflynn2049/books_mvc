@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Bulky.Models;
 using Bulky.DataAccess.Repository.IRepository;
-using Bulky.DataAccess.Repository;
 
 namespace BulkyWeb.Areas.Customer.Controllers
 {
