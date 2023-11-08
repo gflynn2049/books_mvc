@@ -125,7 +125,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
 
             if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
-                var domain = "http://localhost:5132/";
+                var domain = "https://localhost:5132/";
                 var options = new SessionCreateOptions
                 {
                     SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",

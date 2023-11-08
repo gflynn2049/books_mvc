@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G3JI5LykCKYz2ATyyJPDZWFa2xnu+e/2bpY1JEmBmDWMuZYZz3ibLZfDGHmr5NPRjj5Tf34EHiqWE2k3JmvsCQ==",
+  "dgSpecHash": "+R0HTiYI37bxRNVoIX/Y3jk05tLWfBjHpzqs1gAi1APhh7uvDRSUu8u25srLbSJhmbUbw6PIIGwo5dRLD6D9BQ==",
   "success": true,
   "projectFilePath": "/Users/gflynn2049/Projects/Bulky/BulkyWeb/BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.authentication.facebook/7.0.13/microsoft.aspnetcore.authentication.facebook.7.0.13.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.2.0/microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "/Users/gflynn2049/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.13/microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
