@@ -1,9 +1,11 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Bulky.Models;
+using Bulky.Utility;
 using Bulky.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Http;
 
 namespace BulkyWeb.Areas.Customer.Controllers
 {
@@ -49,13 +51,16 @@ namespace BulkyWeb.Areas.Customer.Controllers
             {
                 // update
                 cartFromDb.Count += shoppingCart.Count;
-                _unitOfWork.ShoppingCart.Update(cartFromDb);
+                _unitOfWork.Save();
             }
             else
             {
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
             }
-            _unitOfWork.Save();
+
             TempData["success"] = "Cart updated successfully";
             return RedirectToAction(nameof(Index));
         }
