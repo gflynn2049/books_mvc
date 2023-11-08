@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Bulky.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231108223559_AddMigration")]
+    [Migration("20231108224851_AddMigration")]
     partial class AddMigration
     {
         /// <inheritdoc />
