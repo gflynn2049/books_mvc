@@ -168,7 +168,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
             OrderHeader orderHeader = _unitOfWork.OrderHeader.Get(u => u.Id == id, includeProperties: "ApplicationUser");
             if (orderHeader.PaymentStatus != SD.PaymentStatusDelayedPayment)
             {
-                //this is an order a by customer
+                // an order a by customer
                 var service = new SessionService();
                 Session session = service.Get(orderHeader.SessionId);
 
@@ -179,6 +179,8 @@ namespace BulkyWeb.Areas.Customer.Controllers
                     _unitOfWork.Save();
                 }
             }
+            HttpContext.Session.Clear();
+
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
                 .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
 
