@@ -16,20 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// if (builder.Environment.IsDevelopment())
-// {
-//     // Use PostgreSQL for development
-//     builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//         options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-// }
-// else
-// {
-//     // Use SQL Server (or other appropriate provider) for non-development environments
-//     builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-// }
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
